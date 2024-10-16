@@ -1,0 +1,8 @@
+print("Digite o valor de um número inteiro que mostrarei seu antecessor e sucessor")
+if let resposta = readLine(), let x = Int(resposta) {
+ let antecessor = x - 1
+let sucessor = x + 1
+print ("O antecessor é \(antecessor) e o sucessor é \(sucessor)") 
+} else {
+    print("Entrada inválida. Por favor, digite um número inteiro")
+}
